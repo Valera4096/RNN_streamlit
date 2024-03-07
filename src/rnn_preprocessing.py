@@ -3,6 +3,9 @@ import string
 import numpy as np
 import torch
 
+import nltk
+nltk.download('stopwords')
+
 from nltk.corpus import stopwords
 stop_words = set(stopwords.words('english'))
 
